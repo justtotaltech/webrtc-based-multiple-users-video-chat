@@ -4,7 +4,7 @@
                     "name": "Node Service 1",
                     "root_dir": "/",
                     "build": [],
-                    "command": "node app.js",
+                    "command": "npx http-server ./ -p 8081",
                     "arguments" : [],
                     "port": "8081"
                 }
